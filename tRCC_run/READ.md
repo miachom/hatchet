@@ -10,7 +10,8 @@
 4. Install `cbc` or `glpk` with conda. Here, I am using glpk as `conda install -c conda-forge glpk`
 5. Set the Pyomo-supported solver by setting environment variable `HATCHET_COMPUTE_CN_SOLVER` to `cbc` or `glpk` as `export HATCHET_COMPUTE_CN_SOLVER=glpk`
 6. Next change solver path in .ini file as `solver=glpk`
-7. Running as stdout with `hatchet` environment
+7. Running as stdout with `hatchet` environment-
+
 `conda activate hatchet`
 
 `hatchet run config.ini`
