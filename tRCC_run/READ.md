@@ -6,7 +6,7 @@
 `conda install tabix picard mosdepth`
 `conda install shapeit -c dranew`
 
-3. As DFCI cannot get Gurobi license because its not considered academic, hatchet is installed with a different Pyomo-supported solver instead of using Gurobi. This might make the hatchet run slower as compared to using Gurobi according to their documentation.
+3. As DFCI cannot get Gurobi license because its not considered academic, hatchet is installed with a different Pyomo-supported solver instead of using Gurobi. This might make the hatchet run slower as compared to using Gurobi according to their documentation. Or alternatively you can try getting your own Gurobi license for invidual use on a specific system or machine.
 4. Install `cbc` or `glpk` with conda. Here, I am using glpk as `conda install -c conda-forge glpk`
 5. Set the Pyomo-supported solver by setting environment variable `HATCHET_COMPUTE_CN_SOLVER` to `cbc` or `glpk` as
 
