@@ -12,7 +12,10 @@
 6. Next change solver path in .ini file as `solver=glpk`
 7. Running as stdout with `hatchet` environment
 `conda activate hatchet`
+
 `hatchet run config.ini`
 
-Note- mosdepth may require update if the latest is not installed properly and it is dependent on htslib
+Note- 
+
+mosdepth may require update if the latest is not installed properly and it is dependent on htslib
 
