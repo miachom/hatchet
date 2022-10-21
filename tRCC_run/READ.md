@@ -17,8 +17,11 @@
 7. Next change solver path in .ini file as `solver=glpk`
 8. Running as stdout with `hatchet` environment as
 
-
 `conda activate hatchet`
+
+`module load /path/to/samtools`
+
+`module load /path/to/bcftools`
 
 `hatchet run config.ini`
 
