@@ -34,5 +34,5 @@ mosdepth may require update if the latest is not installed properly and it is de
 # Installation and run with Gurobi license
 
 1. If Gurobi license is available, set the solver by setting environment variable `HATCHET_COMPUTE_CN_SOLVER` to `gurobi`
-2. And `export GRB_LICENSE_FILE="/path/to/gurobi/gurobi952/gurobi.lic"
+2. And `export GRB_LICENSE_FILE="/path/to/gurobi/gurobi952/gurobi.lic"`
 3. And run a shell script submitted as a job with all the required modules and steps described above in step 8.
