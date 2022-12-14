@@ -1,4 +1,3 @@
-
 # Installation and run without license
 1. Follow the standard installation process with conda as 
 `conda install hatchet`
@@ -36,3 +35,9 @@ mosdepth may require update if the latest is not installed properly and it is de
 1. If Gurobi license is available, set the solver by setting environment variable `HATCHET_COMPUTE_CN_SOLVER` to `gurobi`
 2. And `export GRB_LICENSE_FILE="/path/to/gurobi/gurobi952/gurobi.lic"`
 3. And run a shell script submitted as a job with all the required modules and steps described above in step 8.
+4. Following is an example command to invoke hatchet run (after loading all the required modules) for one of the tRCC samples with gurobi license
+
+`conda activate hatchet`
+`export GRB_LICENSE_FILE="/path/to/gurobi952/gurobi.lic"`
+`/path/to/miniconda3/envs/hatchet/bin/python -m hatchet run /path/to/hatchet_file.ini`
+
