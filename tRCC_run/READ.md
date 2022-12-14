@@ -38,6 +38,8 @@ mosdepth may require update if the latest is not installed properly and it is de
 4. Following is an example command to invoke hatchet run (after loading all the required modules) for one of the tRCC samples with gurobi license
 
 `conda activate hatchet`
+
 `export GRB_LICENSE_FILE="/path/to/gurobi952/gurobi.lic"`
+
 `/path/to/miniconda3/envs/hatchet/bin/python -m hatchet run /path/to/hatchet_file.ini`
 
